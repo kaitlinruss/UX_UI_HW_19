@@ -47,12 +47,8 @@ $(document).ready(function(){
 
 $(".menu").click(function(){
     $(this).find(".menuContent").toggleClass("dropdown")
-    $(this).siblings(".menu").find(".menuContent").removeClass("dropdown");
+    $(this).siblings(".menubtn").find(".menuContent").removeClass("dropdown");
   });
 
 
-  /*$(".toggle").click(function(){  
-    $(this).find(".toggleContainer").toggleClass("active");
-    $(this).siblings(".toggle").find(".toggleContainer").removeClass("active");
-});  */
 

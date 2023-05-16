@@ -170,16 +170,27 @@ border-bottom: 5px solid #BC7C9C;
     height: 100px;
 }
 
-.menu{
-    
+.logo{
+    cursor: pointer;
 }
-.menubtn {
+.menu{
     display: inline-block;
     cursor: pointer;
     position: absolute;
     top: 5%;
     right: 5%;
+}
+.menubtn {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    right: 0%;
   }
+
+.menu ul{
+    list-style: none;
+}
+
   
   .bar1, .bar2, .bar3 {
     width: 35px;
