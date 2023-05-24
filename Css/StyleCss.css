@@ -158,6 +158,9 @@ border-bottom: 5px solid #BC7C9C;
     opacity: 0.5;
     cursor: pointer;
 }
+.textBox2 a{
+    text-decoration: none;
+}
 
 
 
